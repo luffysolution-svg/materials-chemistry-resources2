@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>材料化学学术资源导航</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>材料化学学术资源导航</h1>
+        <p>一站式获取材料化学领域优质资源</p>
+        
+        <!-- 搜索功能 -->
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索资源...">
+                <button class="search-btn">🔍</button>
+            </div>
+            <div id="searchResults" class="search-results"></div>
+        </div>
+        
+        <!-- 工具栏 -->
+        <div class="toolbar">
+            <button id="darkModeToggle" class="tool-btn" title="切换深色模式">🌙</button>
+            <button id="backToTop" class="tool-btn back-to-top" title="返回顶部">⬆️</button>
+        </div>
+    </header>
+
+    <nav class="category-nav">
+        <ul>
+            <li><a href="#literature">文献资源</a></li>
+            <li><a href="#programming">编程工具</a></li>
+            <li><a href="#visualization">科研绘图</a></li>
+            <li><a href="#document-tools">文档工具</a></li>
+            <li><a href="#academic-navigation">学术导航</a></li>
+            <li><a href="#development-tools">编程开发</a></li>
+            <li><a href="#ai-platforms">AI平台</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="literature" class="resource-section">
+            <h2>文献资源</h2>
+            <div class="resource-grid">
+                <!-- 将通过JavaScript动态加载 -->
+            </div>
+        </section>
+
+        <section id="programming" class="resource-section">
+            <h2>编程工具</h2>
+            <div class="resource-grid">
+                <!-- 将通过JavaScript动态加载 -->
+            </div>
+        </section>
+
+        <section id="visualization" class="resource-section">
+            <h2>科研绘图工具</h2>
+            <div class="resource-grid">
+                <!-- 将通过JavaScript动态加载 -->
+            </div>
+        </section>
+
+        <section id="document-tools" class="resource-section">
+            <h2>文档工具</h2>
+            <div class="resource-grid">
+                <!-- 批量生成：文档工具卡片（嵌入 ICON data:URI） -->
+                <article class="resource-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img class="resource-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACuUlEQVR4nGxTW0hUURRd59xRm0GbHmYN5iRYERpCjVGUP0GKEQRBDyMKCaKEMops0D5C6UczNHogQX3Uj0oPSKgPA3v6YUVoYVlMWoOWjJqZY8zrnPa+c61BusOac+45e+27zl77SMx6tNYewjWCjzCtGEr5orFYczAc9syOFwlEg4ZzhAqCg9eUVpBC/ouO6RiEaIBEtRBCmQmIyBE2QgthhxUa1dBSIM4O/BpX/vHvymlPs7kzMpEEeZeW9xIiwvp6PQ2VhDAniyklDSnR+eGl9rbWoW/ED5czXQyODqn9m7ZHb5TVJiuoekMYXlZQQKTnlgoRUzEiG3ogMCSWny6Ge8FibF5diG5fjw5GQqKr+paiZERDlI5RyBLLCSlxIVrwqTjR1cetOFFShuuH6vAjOAnnHIdor7isXc5FUtH5iMycclbQT5MVnGBGevWdixiZHMN0JISO3qcoXb8NTfuqYJMGKAYUoywDPrFsd1y6uYGHb5+hy9cDb8lBjE5NoDh3A860XUAgOIGWw+fJhLhCC1m2hA4wfze72lFEpK35hX93PNl5WFuzG6+/9KEgO09QX2gpTYNMm74ymwtHfHz7GYB7oQvUOJgO/UYoEkb+0pXIychC98A7LhQU/ZtfJK60HOAjKJKHJfPS9e1XHbAZBhwpdqQkJWNgdBhkIfIyc7h4sJqIj/CEi7iOJi+oZaUUQvb4+4Wndo8+VXxAkOfo9X9EVWsDcpet0g+OX+ECKBF3ipNsnGmkSzQcpdYNU+smd77vRmVbvf4cGKaWVNhVUITGUq9Is6eyevY/meIbaTw508q8cI9QQkqo/+NXZHBsWDvtqZjvmCuISPbzlrl3n7CTb0fiZeIkZwnHCGn4/zNFaCLUUKIorEIwWVj+8nwNDUfIki0kxmUWjcyhtUeEZnp/k5jxDwAAAP//tZ6JvQAAAAZJREFUAwCNZUNSuXwgXQAAAABJRU5ErkJggg==" alt="Overleaf" />
+                            <h3>Overleaf — 在线 LaTeX 编辑器</h3>
+                            <div class="badges">
+                                <span class="resource-badge badge-official">官网</span>
+                                <span class="category-badge">文档</span>
+                            </div>
+                        </div>
+                        <p class="description">协作式 LaTeX 在线编辑与模板平台，适合论文、报告与演示稿的排版与多人协作。</p>
+                        <div class="card-actions">
+                            <a class="visit-btn" href="https://cn.overleaf.com/project" target="_blank" rel="noopener noreferrer">访问 Overleaf</a>
+                            <button class="favorite-btn" aria-label="收藏"><span class="heart">♡</span></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="resource-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img class="resource-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB8UlEQVR4nHyTS2sUQRDHf/3YR1biJT6uCyqCKPEj6NGTB8GbIJ4EETx5DvgRBPEkInjwoIJfwNxEPHgIrIiIj4uukESICevO9JTVPZOdTmLSUFRPddW//vUYT3NO35D5cAjDAafcYPr1sZnkthRw/o5ccJZnBJxEo8mAZKZErWtYXk4m3Bs9MH+i3afXwCnX41hZpeAke05CZsH3uSuBEyzJVZYQ2zwXVUWlTqVEHW+7xIjqQCg3CdZyZXGVRUUUn2WwmliKgJmW/+2FdDuYjlWwKHBGbe8TgEYaRWWrgLNDuHZRvWUPgHnyGhl9Rwa9FNNte0Ad4B38WINXb6nbK1mr9T5ex3irvLWdldSvPh9HBOl3YHi8ZSBtA/kybu22mZTPOSoqPaV39HCbPLLquPo+6Nc++ZR8E5iAo/NYS3jxpmGljr9+w8910D1hfg66GqET2wkQ6aizTANybojcvIQJQZ21nOUVeLoMc8qsVJuOOY1rJ4MIWtX1r3yDWw9pFrIuJTKLwdV2sNSsZwBT4YOrtLt1rySfgcmmpB9RiS7BrAitTMzoPu+qwPPOAG8cThfFWNeK2Rar/gZvo9beNgxSYv4Wct1s8VkzXtY0R2bJ852UtIGEIv52fNr9nM7J29Jb0Gmusv9xm8jHR2Yj3v8BAAD//4wD3+oAAAAGSURBVAMASNDEp4JvCo0AAAAASUVORK5CYII=" alt="Shimo" />
+                            <h3>石墨文档（Shimo）</h3>
+                            <div class="badges">
+                                <span class="resource-badge badge-official">协作</span>
+                                <span class="category-badge">文档</span>
+                            </div>
+                        </div>
+                        <p class="description">支持在线协作的文档/表格/演示服务，适合团队写作与资料整理。</p>
+                        <div class="card-actions">
+                            <a class="visit-btn" href="https://shimo.im/" target="_blank" rel="noopener noreferrer">访问 石墨文档</a>
+                            <button class="favorite-btn" aria-label="收藏"><span class="heart">♡</span></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="resource-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img class="resource-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACzUlEQVR4nERTPWhUQRD+Zt7be7nkopKogQQrRWwUjZhCS0G0ULGMilYqKIidKIo2/oGWFoY0ChaCCoIiRDRgl8JESCXEGFCCISAkd+/uvdv3dpzdi7iwd/t2vm925puZGLp+Vk7tNDDXLclwCQyAXA+EIjA6ywlAKEmowaDlWHjGSXl/yD6boTlzcm8vJ28i4qEmFRDFSvj1i6jz3/km/fY33RKjELfYzLMj3EXxVU9eFZuXtnQi+lzEgUtK9Dv48Xdq9Ji6YmPwYLWSXGMh3p1J4dRseH2VYCIUaZ1cUZJj6mw9l3rnbbyh6t2ZDKXTnIZjx26jvsHOFjLw9ArM1gGkL6dk5dFbuEZGPnCuJbLu8nHURveTnfuNpeMPqagYH+LmWIPu5TgSydpwK02YHYO04cYJJId2YunwPS8INk9cp+q+rUGNfHpeE2lrSomgKGuxqhIjwED18UnpOXkAZTNHdWQb+h6cgjgHTy5aOaJqgvrYpEKZgrLKpYXqGeecKpFURAyo98JB9N8ZhaYEUuGC/uqETYw/N19g9fEEqFS/uSWVRzgUx7uzFv1PzqH1YRbLF8dBSpDAlnBevjSO5rsZ9I+dV2wROL46HAJhUg0smcE+Gfp0S1ofZ5G+nlI7h52+moK/G/x8W8xQX8B6juf6Xiu8AhyxiOZJtYR6jo0g//IDCgo7n15A99ERrUYXeYzHotNqVlmS+mBCqvUc0sgEjbaQVbEbmS8lyLpw520Bs9amekjpV3L2m8a5TVsT1JMQV2Ipmhn7nqVqpdPIrXbQI+pORNqqYJqLls9n8F07gKYNou11lLmstkzQLUKYHgV23mIOYpZp2wsnErHtQpxkYr/SPEZ3dSdd731vN7n4F56ECvDaMDk/D2vDhLVhgltslPmxAFgwp4cTMlcLcnscZJOQ1NRT9H8Yg0oaO6cRsGQ0agt7d0v7+exfAAAA//99aXpyAAAABklEQVQDAD3Khn7yfztyAAAAAElFTkSuQmCC" alt="Canva" />
+                            <h3>Canva / 创客贴 — 视觉设计与排版</h3>
+                            <div class="badges">
+                                <span class="resource-badge">设计</span>
+                                <span class="category-badge">模板</span>
+                            </div>
+                        </div>
+                        <p class="description">在线图形与演示设计工具，提供大量模板、图表与可视化素材，便于制作学术海报与幻灯片。</p>
+                        <div class="card-actions">
+                            <a class="visit-btn" href="https://www.canva.cn/" target="_blank" rel="noopener noreferrer">访问 Canva</a>
+                            <button class="favorite-btn" aria-label="收藏"><span class="heart">♡</span></button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="academic-navigation" class="resource-section">
+            <h2>学术导航</h2>
+            <div class="resource-grid">
+                <!-- 批量生成：学术导航卡片（嵌入 ICON data:URI） -->
+                <article class="resource-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img class="resource-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADJUlEQVR4nFxTWUwTURS9b2Y0SltsVIxGkVJKU6CQAgEptBAWS1wIASQaTdQIRpFIjPrhn3z4IVFj5ENj+PBLAgICAsFglE2oKUvZVJbSDQhG9Ef20s7zzWOx8pI3k5l7z3n3nvsOA/8Wys3NZb2+2YTUrAvx+oxM7xyAYgb+/0GBTFVVlWf9l5840aA/qwoOvqbXxcbMzy9Ax+cvjWMTlsdm44f2DZxAgoWNNpn2B0Qf0oQrLqlDVVdTknTylKQEEIl209jsjzl4U1MPXcbe2tEJy6Nh00fjVgXZ5wsDEF4rVCoCL6cfT/bTxkXDzh0cLC2veOx2J7OwuASyAH/+gN8+1uGcgcrqd9jUb66wTlhKzKbWQZRzLv9Zft7FovRUHSCEwOVa4yuq69D7ljZYdbmAQQxac7shSqPGRQVXPFLpHm50fJJU1LjSNziUz7EsyynkMjcBc263G5e9es3U1jdjrTYGThqSka+vBJt6zVBeWQvOqWnuycP7vEoZxGSeNuzq6zdHcDzGeHl5SVAfW6wO+NTWhVUqBbp3+wbRwIe2GRaiBIlYDJZJG56b+432+PrypDpyJrPCMeRFOKiYJAEE1Q1pSRRMKqJtCftM1ilKhjFVX4CBgGOECjYExZSLxJHXnIWwkLyy6oI/hNxFdPGKEoXIk+jAC0h5YAAIPQ+OfMcLC4vAcRzdAsHT0pc47/odPDpuEQ7kycJCQRw5wWe9JIAQpQLSkvVQU9cED0pK8QlDMoglImTqMePWjm6kiQgDpUJOWxCLRDwh4FiVOtJjs00dYzlu75HDhyAuNgokEjHf2zfAdHabUJfRhCetdpSo0+K7two8Ip/d7MzsTyBjRg7H1FvarlQqk0brtAWa8NBCMp7D+vhY2qHdMUVbCZQddRNRd9gc09DQ1AL9A8MtTuf0c7z6qwlt3GueukAWejBSrSnURIQW5GRn7IuNjqBE30YtUNfQ7B4a/FpjtTpf9Bib273NRJfgxE1DBakT/YPl/jdjYjT5DBGqzzxUPmG3lY31dw5tz/eeGGx3ZogmMZhcY94y0j255cLiYuLoYn4T8BcAAP//RIM9CgAAAAZJREFUAwCcO2YZPgZb4gAAAABJRU5ErkJggg==" alt="PubChem" />
+                            <h3>PubChem</h3>
+                            <div class="badges">
+                                <span class="resource-badge">化学</span>
+                                <span class="category-badge">数据库</span>
+                            </div>
+                        </div>
+                        <p class="description">开放的化学物质数据库，包含结构、性质、毒理与生物活性信息，科研常用参考。</p>
+                        <div class="card-actions">
+                            <a class="visit-btn" href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer">访问 PubChem</a>
+                            <button class="favorite-btn" aria-label="收藏"><span class="heart">♡</span></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="resource-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img class="resource-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACv0lEQVR4nKRSTUwTQRSemd3t0pZtoaVFUKuI0IOKCh40KoEIkUQTD6hQOKEmXGj1rgcunkwUG4w2IZgYEakxmkggggiKGvSgQQNRtOHPVH5SoC1tt93ZGZfiD1Q8GN9hkvfN+16+997Hgv8MlAjU91L2sntSnYi7XJRzdlA+EYcrE2fr3EEIYCqFUCQQCOcqUu7H8baFEkAgTxkgMwSydZW69jUVIMCm2c29vCOtp7qfmYg0uGetdudnPgSx4DB3F501PtkrQjlw6VbQvGaDHs34PkDBAQBJe5cwdkrCDJ+1Lgnd0348rYj9pJT4mvWDtQyNcj85bHxul1cTSo3qbqtHtjb4ShsoxoGB5K+vLxpe7rKKJixB7G30lQ5RmUg39IN7mgzD610u73xtbWaYaWybL1TzfI5bN3IyL5bu2eJnu6mKJVkxvfRWM3sszEbzbAvbXmgR/45wbNga0YE+YcK2n2YHD584n4kAAUZ7pb7zPTvDlYQy7tBkteUVkzKJIVWPMYGWUVVgRk/4YQKwGkkxsxZxfdMo9G2JAwk2IpCwDVmW4pdBiKFKxis7QQzD0eVfZfRI/HbwNw2xvqtuf1m+mB7q0I7XcEDjLQIhE6AkapFSj2fH9IYpOL9DxtEwg+C0PwkXZ+Bk8xIHUjCH6iqE5zEx0l/uz70+zPkKY1C0UBzN6tKM5S+iSOfmiHDtgeAphlCdTYiU2SoMlW3AwpUljqMq9dkvKU530PSU81Q+FL4UKAIHNmKdrU7cfZTziPiudbz1jWpqQNGetFMyWc74Cy7YbVrvKh+wkowPiZs+KFCLkuaWL1qbIlOSPMqKpCJgbf4xsK9mYXuzKBH8NysfYRhGxlRGSHns1cbHy1ZeLEFAVskyVhwOOUeV4dGaDeKmujmaZAhi6nDkRFfhbqoCIYDqa6C4Ev+jwb/GdwAAAP//CJSgngAAAAZJREFUAwANCzJaLpOwyQAAAABJRU5ErkJggg==" alt="Materials Project" />
+                            <h3>Materials Project</h3>
+                            <div class="badges">
+                                <span class="resource-badge">材料</span>
+                                <span class="category-badge">数据库</span>
+                            </div>
+                        </div>
+                        <p class="description">面向材料领域的结构与性质数据库，适合计算材料学与材料设计的参考。</p>
+                        <div class="card-actions">
+                            <a class="visit-btn" href="https://next-gen.materialsproject.org/" target="_blank" rel="noopener noreferrer">访问 Materials Project</a>
+                            <button class="favorite-btn" aria-label="收藏"><span class="heart">♡</span></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="resource-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img class="resource-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABuklEQVR4nKSRSyhEYRTHz3fv3DtjrpqZhTCeC3nslGJhIyyVLCgWYsHOjoVSiiKKlaUFVqwQWYiVsJBXREkeJY+ZMWbGDO6de7/Pd5tHc7+uTMnZnO655/87538+C/wzLJl+EkKa9IwQ2v0TgApFfxhPj63KfZ9vd+jV/zOf67IOUpDC9iITceXZI16bWJcLfWEsRZ5OwZktRMZ6Kzx1Vc5WCrlIC1BU0rN8GJ1b3FNsmACv13RArBPhrka33N9SMmK38bMGAJ3qvPeSpalNufHmRZNSoUlAPMoKpMhod/lBeZHURbfxIf1QO5fqysyWIskqsbGWWIAeosApA22lkY4Gd7vpEV0Sgkq3qG9GR9YBYBUurm/B4w0me6wCR0wteENYqsgXQMNGKM8BnJ1fgcuOExY6qYV3wxGjGhmf3tCGg9+YN9ssW8R4qEWYzLLyI4mawYKFg4/iHF7TMG8KoFuoNhH8Bg3TgyBzELbAMd8HeQ5Q0qndTojStJcWQI9yWF0Cx3RVmRULtFZTCtu058igYRvpizgCX7Bw8gDNzwEQ45MVXeywQy8FhDICUkC1NNVDzPc+OzkRvwAAAP//jnjRUwAAAAZJREFUAwAYLLHqr5k/BQAAAABJRU5ErkJggg==" alt="Google Scholar" />
+                            <h3>Google 学术</h3>
+                            <div class="badges">
+                                <span class="resource-badge">检索</span>
+                                <span class="category-badge">文献</span>
+                            </div>
+                        </div>
+                        <p class="description">覆盖多语种科研文献检索与引用追踪，适合作为入手检索与快速引用工具。</p>
+                        <div class="card-actions">
+                            <a class="visit-btn" href="https://scholar.google.co.jp/" target="_blank" rel="noopener noreferrer">访问 Google 学术</a>
+                            <button class="favorite-btn" aria-label="收藏"><span class="heart">♡</span></button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="development-tools" class="resource-section">
+            <h2>编程开发</h2>
+            <div class="resource-grid">
+                <!-- 批量生成：编程开发卡片（嵌入 ICON data:URI） -->
+                <article class="resource-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img class="resource-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACqElEQVR4nGxTz0tUURQ+98ebN/5gZGa0CaE0e/4qJGijgS3aRxCtWuQialMUuAmUglbRogiyjKx/ICiKtkZhrQyKJCufxugkKpaTk1Tqm3vu9dw3IzMMXmbgvPPO953vfPc8CYXD6G9s0OR1HBHCOccBjlFiN6UZA7akgb3WWj2am/k6DmWHlcVOS0fXTUpcYJxHwRj6mZCUMcvBwGizTqmhtP95gNJ6m4CaeQSOPpXSOa415Qu4Mv7SMxcclMo/S09NnqYECvu2pb3xdiQS6VNKvUKDV6ldPWesQRu9RNAcCXBIzzgqHCDy6kjEPRGL17ur2Z+jrNnr7BFSjgnpCJUPHqb9yYtEKtvaDqWC4E/W9kXXTcz7/gqFQUt71x3pOJcQ85sqj72SC3GeZo4YjVawoiKrCqenJxbK/FksziPICUVjCsZ4Nef6LCmFo9YtTQZt5NV9Cy4Wsx3MRgX5YdD412JotF5ugDWGFoP5tZCemi0W6jLntl0MnzO+/4OCRYsg3D5u2U3B9ppEwquq6Fx5WCqVilJxzITrAcKOkLF4kpOsTTrdxU5yhxFszrh1yR4C7SruSIYD6nfAQyH/HCkfN7W2dkLBzMoR1F7vwEFHiKGQkViI4y1r8joPSyk/aGPuUm4P3cpJrfGFRn19dvrLhC0OgY68QoBTVFNjyazviNjNM9+/fTQGH0ghLgdBcEOjukX9av9vqrVS+2CDZuizYBK+Tk2kAX2PvotPVjtPY9BP9zjmRt0ntH3vKR5czvjbNwLzSi2QwmUbCyGqUKmXabU5aLFlRjVH97fHRrjkZ0g+ZDfW4rm5uZx9k/C8WFxW0UpzpPFGaFv7KR2EhCWXc2o1u/y8rr7hDbmzsoTBKORy1kxY/52AeNJxUZlrszOTw1BaNtgCAAD//2yGulAAAAAGSURBVAMAJsVHc9JrNmMAAAAASUVORK5CYII=" alt="GitHub" />
+                            <h3>GitHub</h3>
+                            <div class="badges">
+                                <span class="resource-badge badge-official">代码托管</span>
+                                <span class="category-badge">开发</span>
+                            </div>
+                        </div>
+                        <p class="description">全球最大的代码托管与协作平台，适合开源项目、版本控制与协作开发。</p>
+                        <div class="card-actions">
+                            <a class="visit-btn" href="https://github.com/" target="_blank" rel="noopener noreferrer">访问 GitHub</a>
+                            <button class="favorite-btn" aria-label="收藏"><span class="heart">♡</span></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="resource-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img class="resource-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACzUlEQVR4nERTPWhUQRD+Zt7be7nkopKogQQrRWwUjZhCS0G0ULGMilYqKIidKIo2/oGWFoY0ChaCCoIiRDRgl8JESCXEGFCCISAkd+/uvdv3dpzdi7iwd/t2vm925puZGLp+Vk7tNDDXLclwCQyAXA+EIjA6ywlAKEmowaDlWHjGSXl/yD6boTlzcm8vJ28i4qEmFRDFSvj1i6jz3/km/fY33RKjELfYzLMj3EXxVU9eFZuXtnQi+lzEgUtK9Dv48Xdq9Ji6YmPwYLWSXGMh3p1J4dRseH2VYCIUaZ1cUZJj6mw9l3rnbbyh6t2ZDKXTnIZjx26jvsHOFjLw9ArM1gGkL6dk5dFbuEZGPnCuJbLu8nHURveTnfuNpeMPqagYH+LmWIPu5TgSydpwK02YHYO04cYJJId2YunwPS8INk9cp+q+rUGNfHpeE2lrSomgKGuxqhIjwED18UnpOXkAZTNHdWQb+h6cgjgHTy5aOaJqgvrYpEKZgrLKpYXqGeecKpFURAyo98JB9N8ZhaYEUuGC/uqETYw/N19g9fEEqFS/uSWVRzgUx7uzFv1PzqH1YRbLF8dBSpDAlnBevjSO5rsZ9I+dV2wROL46HAJhUg0smcE+Gfp0S1ofZ5G+nlI7h52+moK/G/x8W8xQX8B6juf6Xiu8AhyxiOZJtYR6jo0g//IDCgo7n15A99ERrUYXeYzHotNqVlmS+mBCqvUc0sgEjbaQVbEbmS8lyLpw520Bs9amekjpV3L2m8a5TVsT1JMQV2Ipmhn7nqVqpdPIrXbQI+pORNqqYJqLls9n8F07gKYNou11lLmstkzQLUKYHgV23mIOYpZp2wsnErHtQpxkYr/SPEZ3dSdd731vN7n4F56ECvDaMDk/D2vDhLVhgltslPmxAFgwp4cTMlcLcnscZJOQ1NRT9H8Yg0oaO6cRsGQ0agt7d0v7+exfAAAA//99aXpyAAAABklEQVQDAD3Khn7yfztyAAAAAElFTkSuQmCC" alt="IMOOC" />
+                            <h3>慕课网（IMOOC）</h3>
+                            <div class="badges">
+                                <span class="resource-badge">课程</span>
+                                <span class="category-badge">学习</span>
+                            </div>
+                        </div>
+                        <p class="description">在线编程课程平台，包含前沿技术、工具与实战教程，适合自学与课程补充。</p>
+                        <div class="card-actions">
+                            <a class="visit-btn" href="https://www.imooc.com/" target="_blank" rel="noopener noreferrer">访问 慕课网</a>
+                            <button class="favorite-btn" aria-label="收藏"><span class="heart">♡</span></button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="ai-platforms" class="resource-section">
+            <h2>AI平台</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="official">官网资源</button>
+                <button class="filter-btn" data-filter="mirror">镜像站资源</button>
+            </div>
+            <div class="resource-grid">
+                <!-- 批量生成：AI 平台卡片（嵌入 ICON data:URI） -->
+                <article class="resource-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img class="resource-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABpUlEQVR4nHTTTShmURzH8XPv88xMU1OzmWlmMTPNZprN1LwtZvKWJKzERtkQFqQURYkslCSRLFDYsFBi42XhZYGNhbwUO0oRK5SXKG/P43vc383t4tSnbvee87////+cEzGPh2OeH274ReSJxXGkoxoZuME2XunZn3c/ooHFUU2oQgG68RJjWNecLTRgJ5ySo8XfkY8ULCIVo6hBJjYwjs/+ukgg7SxMYACnGEEzhlCBXNThowJP2Ra4WvxPHydxjh+YwXvs4RgryiopUHrcL6EYXZjGay0qwm+04y/WkI0DvbdNjfm7kId5fFA2JwpSqUxsgDalX6gevcOyn8EqyjCIa3TY6OZhOArmKkAfEvwPRmnPYdd42/gN9cbbPkfBc5S63cIX6kVpRFHtX38Zb3ts7Uc4M95h6sGhmmvnJyMNrdh3A1lcYhaJ+IO3+KRg9kTaM/BG9Tdiya6NBmrtNN422m0tx0+0qNs5Kq/XeOdlU5nHwhfnK5rwBRf4j1r9pAT9aqAt5TbYRP85rmd7B67UqCKVN4yF0LxHV9eRmHl6uOFvdwAAAP//0qP42gAAAAZJREFUAwDwq2A2T24xdgAAAABJRU5ErkJggg==" alt="ChatGPT" />
+                            <h3>ChatGPT / OpenAI</h3>
+                            <div class="badges">
+                                <span class="resource-badge badge-official">聊天式</span>
+                                <span class="category-badge">AI</span>
+                            </div>
+                        </div>
+                        <p class="description">通用人工智能对话平台，支持文本生成、代码辅助与多种插件生态。</p>
+                        <div class="card-actions">
+                            <a class="visit-btn" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">访问 ChatGPT</a>
+                            <button class="favorite-btn" aria-label="收藏"><span class="heart">♡</span></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="resource-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img class="resource-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACgklEQVR4nIyTz0tUURTHz7nv+UZLyCJCivIHZpZhYQr9ok0FLVpkNI2KtCkobJMgjuFGDHSsoE2LWrQqmDELo8DoDwiCjFAyx0mLCHKKGAtjxpl5756+M87IjCJ04D7ePfd7Puec+0PRCgt5mztDXS0ns/MPvW4r2NXcQGuYyp1863AXCcmAsL4vbreR8pmL3Masn/8XYPud4ZgQPcBvxXSF0bTk5UoS/pz6m/W6d0x7PW9RZWs2xkx9przNhw3SHbZtdoqK9ShtnReW64A9DQlvISXjX66dKUmQegV5DbGWvApMJmTmE4ap37EUNmK5j4nqP3V5mkhkGyTjiULXw3Qw8aNq32N/HmCnL/DesY39RDLJokcVUxkxfdVMPcJUSloAotOQflx0Cq7kts25E+ntVaHoVDu8PkzXZ9xxDBeGA/8hgBIsVI8eakWpUQ52t5xikoOsKQLnPMYfZlmHgAGM8hy+nYFZGBNI98Yx+J6JYwsqkTKtuESR3gwQBOwCSCjf5uEZQRWvsam/xFE/d/cHJnmFiGa63VWOqEGIGyHeCpeRWRoT5ifY1CPYuKOgbySWTjMbmLpE0QJ1wxFqF6G7nEYLemdsbhpUjuA6u0ifq6VaOxSfrv7umptZBkQtNYaMtmg+BnIjMhwnZh9amoO/GJI6QH+bMfViwpk9u++2P7h8jBlrXYhsaDAMpwDJ+0zWHtyXPSg7nNS6A+ulIhwBfKjQiI/k3YOU7RocGrc2/S3WovwQXqzyDc+Q4gbAwntvDYchuYrT6tbKepnUcmEVIGVGPIkq5VLNzcDS4xE5gIcUziQIoKU2bcUXMsC0rTqFXAt5PZdNQz2r7Pf/WEvzDwAA//8h4MrkAAAABklEQVQDAJvOAgfrQEGgAAAAAElFTkSuQmCC" alt="Claude" />
+                            <h3>Claude</h3>
+                            <div class="badges">
+                                <span class="resource-badge">助手</span>
+                                <span class="category-badge">AI</span>
+                            </div>
+                        </div>
+                        <p class="description">Anthropic 的对话式 AI 服务，强调安全与可控性，适合研究与产品试验。</p>
+                        <div class="card-actions">
+                            <a class="visit-btn" href="https://claude.ai/" target="_blank" rel="noopener noreferrer">访问 Claude</a>
+                            <button class="favorite-btn" aria-label="收藏"><span class="heart">♡</span></button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="resource-card">
+                    <div class="card-content">
+                        <div class="card-header">
+                            <img class="resource-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACnUlEQVR4nHSTz0tUURTHv+e+ecrERJSNM06FwoxRGhm0iHJKN20Md+0MwaIWs5iCwP9BcDdS2KZZFKTlBImEs4tykYtSBiIziX7glBZWjMyM8947nfvmPRGhB593L+fde77n11MAFOpPUpgSioLzH4remaR3R5G3uSqMCUGlFIiIZe9/8x+2bdu3lYWUkNWGc8ILISDUvFXbeZcD32YJprAl9GrjjNAnypbjOIFkMomuri6uVqvbEeioarUaT05OUrlchpyzPKFp/TqrPYvRCAaDnMvlEA6Hd4fvRhAKhTiTyUjiynDY0dF0S7pkM7Pq7+/noaEhjI+P08rKChobG2FZlnuzoaHBXQeuDGBvaC/fun0TtYqlRRzldyGdTlNHRwfNzs5icHAQo6OjWFpaQltbGyR0FAoFzL+eRyqVot7Oi0T1qijlF0vy1Hm7Si0tLYjH4+4+Go0ikUjANE0YFHBt3YcvcWT/KX2T/RlANpvF5uamqzg8PIyeCz0iQJiYmEB7ot2VOXGyEw+msih9qyCSOLPdGsdvUSwWo3w+jz3BIJyAzt2E7TioVipoCh/EnZG7WB1bR/Ox0/zInKPlV/fY77lOgYqrRY5EI7RQWETx7RcESIkDhqEMbJR+w5iWoh4/yk+P/KS/ix/dALSDH0KztJGlwur+wyyvZ5ZJrZtYa2DY7MCRkhlGI/YdaOJ3zUwfno84W6U1Lfxdvx4Ll/UUSkvNmAojHb/OM9EQff21gKr1R4cHW7tSJlFpA2uf52ogZcr0PNEOuoWX9VTIkrCN1tY+Msnk959y/kDxjlG2vSnUtTvvH7gmZISg/kBkELMtAamdk8jah3ROXs72z2R4nt+g/kMdEmQAmDxBqosye6uocl42N4Rn+u4/AAAA///JkFJPAAAABklEQVQDAAF2AosW/iDDAAAAAElFTkSuQmCC" alt="Poe" />
+                            <h3>Poe</h3>
+                            <div class="badges">
+                                <span class="resource-badge badge-mirror">多入口</span>
+                                <span class="category-badge">AI 工具</span>
+                            </div>
+                        </div>
+                        <p class="description">集合式 AI 平台，便于比较与访问不同模型与接口。</p>
+                        <div class="card-actions">
+                            <a class="visit-btn" href="https://poe.com/" target="_blank" rel="noopener noreferrer">访问 Poe</a>
+                            <button class="favorite-btn" aria-label="收藏"><span class="heart">♡</span></button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 材料化学学术资源导航 | 持续更新中</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
